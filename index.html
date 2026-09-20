@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Afiqah Anata Putri Latiefah</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Latar Belakang Hijau Pastel Soft */
+        body {
+            background-color: #e8f3ee;
+            color: #2e4036;
+            line-height: 1.6;
+        }
+
+        /* Header / Navigasi */
+        header {
+            background-color: #4a6b5d;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover, nav a.active {
+            background-color: #3b574a;
+        }
+
+        /* Konten Utama Beranda */
+        .hero {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border: 4px solid #a3c9b8;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: #2e4036;
+        }
+
+        .info-text {
+            font-size: 1.1rem;
+            color: #527363;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .bio {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        /* Tombol Navigasi Antar Halaman */
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4a6b5d;
+            color: #ffffff;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #3b574a;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: #4a6b5d;
+            border: 2px solid #4a6b5d;
+        }
+
+        .btn-outline:hover {
+            background-color: #4a6b5d;
+            color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi Utama -->
+    <header>
+        <div class="logo">Afiqah Anata Putri Latiefah</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="hobi.html">Hobi</a></li>
+                <li><a href="medsos.html">Media Sosial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Kartu Profil Utama -->
+    <main class="hero">
+        <!-- Foto Diri -->
+        <img src="images/profil.jpeg" ALT="foto Diri" class="profile-img">
+        
+        <h1>Afiqah Anata Putri Latiefah</h1>
+        <p class="info-text">SMKN 1 TANGERANG — Kelas 11 DKV 1</p>
+        <p class="bio">Selamat datang di website pribadi saya! Saya siswi Desain Komunikasi Visual yang memiliki ketertarikan pada bidang seni, kuliner, dan olahraga.</p>
+        
+        <!-- Tombol Hyperlink Menuju Halaman Lain -->
+        <div class="btn-group">
+            <a href="hobi.html" class="btn">Lihat Hobi Saya &rarr;</a>
+            <a href="sosmed.html" class="btn btn-outline">Media Sosial &rarr;</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Afiqah Anata Putri Latiefah — SMKN 1 TANGERANG</p>
+    </footer>
+
+</body>
+</html>
